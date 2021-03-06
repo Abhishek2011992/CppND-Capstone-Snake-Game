@@ -16,9 +16,10 @@ class Game {
   int GetSize() const;
 
  private:
+  std::size_t grid_width_;
+  std::size_t grid_height_;
   Snake snake;
   SDL_Point food;
-
   std::random_device dev;
   std::mt19937 engine;
   std::uniform_int_distribution<int> random_w;
