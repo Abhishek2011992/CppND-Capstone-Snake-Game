@@ -26,6 +26,6 @@ Initial version of the code was take from udacity capstone projet [Udacity C++ N
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.# CppND-Capstone-Snake-Game
 
-# Updates: 
+## Updates: 
 *Initial version of the game had issue with placing the food, sometime the random generator would endup in location (32,y)/(x, 32) which will not be seen and hence the game become unplayable 
 
