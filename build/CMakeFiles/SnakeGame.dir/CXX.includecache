@@ -6,37 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/controller.h
+/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/snake.cpp
 snake.h
 /home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/snake.h
-
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/game.cpp
-game.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/game.h
+cmath
+-
 iostream
 -
-SDL.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/SDL.h
-
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/game.h
-random
--
-SDL.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/SDL.h
-controller.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/controller.h
-renderer.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/renderer.h
-snake.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/snake.h
-
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/renderer.h
-vector
--
-SDL.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/SDL.h
-snake.h
-/home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/snake.h
 
 /home/aptiv/Documents/01_Personal/Udacity/Cpp_Course/GIT/CppND-Capstone-Snake-Game/src/snake.h
 vector

@@ -4,9 +4,25 @@
 #include <vector>
 #include "SDL.h"
 
-class Snake {
- public:
-  enum class Direction { kUp, kDown, kLeft, kRight };
+
+
+class Snake
+{
+public:
+  enum class Direction
+  {
+    kUp,
+    kDown,
+    kLeft,
+    kRight
+  };
+
+  enum class SnakeState
+  {
+    NOT_GROWING = 0,
+    GROWING = 1,
+    REDUCESIZE = 2
+  };
 
   Snake(int grid_width, int grid_height)
       : grid_width(grid_width),
@@ -15,8 +31,8 @@ class Snake {
         head_y(grid_height / 2) {}
 
   void Update();
-
   void GrowBody();
+  void ReduceBody();
   bool SnakeCell(int x, int y);
 
   Direction direction = Direction::kUp;
@@ -28,11 +44,11 @@ class Snake {
   float head_y;
   std::vector<SDL_Point> body;
 
- private:
+private:
   void UpdateHead();
   void UpdateBody(SDL_Point &current_cell, SDL_Point &prev_cell);
 
-  bool growing{false};
+  SnakeState growing{SnakeState::NOT_GROWING};
   int grid_width;
   int grid_height;
 };
